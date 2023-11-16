@@ -47,10 +47,10 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-                    InlineKeyboardButton('📣 Uᴘᴅᴀᴛᴇs', url='https://t.me/Tom_Support'),
+                    InlineKeyboardButton('📣 Uᴘᴅᴀᴛᴇs', url='https://t.me/filesharebotusers'),
                     InlineKeyboardButton('❓ Hᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help")
                   ],[
-                    InlineKeyboardButton("🥷 Bᴏᴛ Oᴡɴᴇʀ 🥷", url="t.me/af_x_su")
+                    InlineKeyboardButton("🥷 Bᴏᴛ Oᴡɴᴇʀ 🥷", url="t.me/c4christy_bot")
                   ]]
         reply_markup=InlineKeyboardMarkup(buttons)
         await message.reply_text(
