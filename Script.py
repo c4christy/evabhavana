@@ -8,6 +8,8 @@ class script(object):
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : 𝙿𝚈𝚃𝙷𝙾𝙽 7
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚅𝙴𝚁𝚂𝙸𝙾𝙽: BHAVANA 𝚟3.0.0"""
 
+    OWNER_TXT = """✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/filesharebotusers>AML UPDATES</a>
+Contact Owner for more details through:-"""
 
     STATUS_TXT = """<b>➥ ᴛᴏᴛᴀʟ ғɪʟᴇs: <code>{}</code>
 ➥ ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code>
