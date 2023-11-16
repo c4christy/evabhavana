@@ -28,7 +28,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS' ,'http://telegra.ph/file/c54f4c4e8c05597210d43.jpg http://telegra.ph/file/dd8df1b6f794bdde4f8d3.jpg http://telegra.ph/file/64750a45d500d5cd97683.jpg http://telegra.ph/file/e7a7bb0b1d8c13c3feb1a.jpg http://telegra.ph/file/6f1d13ac1d52f9a23be49.jpg http://telegra.ph/file/14b6933c80b54997f56d5.jpg http://telegra.ph/file/157c18c056c9343b68462.jpg')).split()
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '683891378').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '683891378 5845960615').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001793383615').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
